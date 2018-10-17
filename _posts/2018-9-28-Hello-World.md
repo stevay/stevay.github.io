@@ -35,9 +35,9 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 1. **Pull**: Gather all the data sources that we believed were both relevant and beneficial for our research purposes. In this case, we knew we wanted MTA data to get a sense of what activity at each train station was like. Also, given the second requirement of wanting to find gala participants who would contribute to the client’s cause, we wanted to pull NYC income and household data offered by the U.S. Census Bureau. In order to tie MTA data with census data, zip code data was required - we turned to Google Maps Platform for that. 
 
 2. **Clean**: Data is messy. There are many characteristics that can skew the insights gathered from exploratory data analysis, like: 
-- Duplicate data
-- Unstandardized data values
-- Incorrect / flawed data types  
+  - Duplicate data
+  - Unstandardized data values
+  - Incorrect / flawed data types  
 
    MTA data is no exception to the messy data syndrome - got to clean before accurate insights can be seen.  
 
