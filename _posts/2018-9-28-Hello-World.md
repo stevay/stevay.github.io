@@ -3,7 +3,7 @@ layout: post
 title: Hello World!
 ---
 
-![alt text](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw6tLMw-7fAhVEMHwKHTPLDrcQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.com%2F%40thiagonascimento%2Ftime-to-first-hello-world-11a4735602f2&psig=AOvVaw23wEKjpozAvkTPrsz70fzt&ust=1547598433736004)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*U-R58ahr5dtAvtSLGK2wXg.png)
  
 Welcome to my first blog post! It has been a hot second since I last wrote a blog post (Xanga anyone?) but I am back and ready to share with you some thoughts I have gathered over this past week.
 
@@ -24,8 +24,11 @@ Then there’s the aspect of being a part of a class. Everyone is there to learn
 Metis also does a great job with helping students get to know one another via daily pair programming sessions. Every morning, students are paired up with someone new to solve problems that are typically seen in data science interviews. A couple of the questions I saw this past week definitely played games with my heart, but a [twitter post](https://twitter.com/hadleywickham/status/565516733516349441) shared by the professors taught me that learning can be challenging, and at times you will struggle, but the adversities you face and overcome is how you know you’re doing it right. 
 
 
-**Project Benson - aka MTA Data Analysis**  
-I am (was?) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
+**Project Benson - aka MTA Data Analysis**
+
+![alt text](/images/blog_post_1_1.png)
+  
+I am (*was?*) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
 
 So when my professors dropped the news earlier this week that my class’ first project would revolve around New York City MTA data, there was definitely a sense of nostalgia happening. The many fond memories I have of the public transportation system offered in the city that never sleeps, like the lack of air conditioning in practically every subway station; the rats that roamed and ruled the train tracks; the delays, oh the delays…
 
