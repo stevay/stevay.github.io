@@ -65,7 +65,7 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 	- Seeing if demographics correlates with MTA activity (e.g. gender)
 	- Identifying tech-centric locations and their proximity to MTA train stations
 
-![alt text](../images/404.jpg)
+![alt text](/images/404.jpg)
 
 **Final Thoughts**  
 When it comes exploratory data analysis, the sky is the limit in terms of scope. There is so much data one can analyze and get insights from. It is important to remember that when starting off, it is OK to start with a narrower scope and expanding it afterwards. Perfectionism - that feeling of making sure you capture every data source you believe is relevant for your analysis - is not your friend here. Baby steps!
