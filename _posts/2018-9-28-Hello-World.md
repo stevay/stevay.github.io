@@ -27,7 +27,7 @@ Metis also does a great job with helping students get to know one another via da
 
 ## Project Benson - aka MTA Data Analysis
 
-![alt text](/images/blog_post_1/image_1.png)
+![alt text](/images/blog_post_1/image_8.png)
   
 I am (*was?*) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
 
