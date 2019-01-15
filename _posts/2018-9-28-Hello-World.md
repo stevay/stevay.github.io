@@ -66,7 +66,7 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 
    You can see an example of a graph we built for our group project below:
      
-   ![data visual](/images/blog_post_1/image_6.png)
+   ![data visual](/images/blog_post_1/image_7.png)
    
 
 5. **Future**: Given the timeframe of this project, there were additional ideas my group had in terms of other factors to consider or visuals to develop, but unfortunately we were not able to include them in our final presentation. All those ideas went into this bucket of our general approach. 
