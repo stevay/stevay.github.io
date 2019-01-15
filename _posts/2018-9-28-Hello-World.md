@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Hello World!
 ---
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*U-R58ahr5dtAvtSLGK2wXg.png)
@@ -17,11 +17,15 @@ So like most journeys, there always is an end, and that was the case for this pa
 ## So What’s Next?  
 One week ago, I started attending classes at Metis - an organization that provides full-time, in-person data science education for twelve weeks at a time. The bootcamp is available at multiple locations - I went with the San Francisco offering. 
 
+![metis logo](/images/blog_post_1_2.jpeg)
+
 I chose to fully devote myself to the three month data science program because I wanted to develop new skills and be able to use them repeatedly. In other words - learning through repetition. Also, the general recommendation for anyone developing new skills is to come up with a topic you’re interested in and to work on a project utilizing your newfound capabilities. Through Metis’ data science bootcamp, each student has the opportunity to work on a total of five projects - four which are structured around the topics covered in the classes, and the fifth where each student has the opportunity to choose the subject matter - typically one he or she is passionate about. 
 
 Then there’s the aspect of being a part of a class. Everyone is there to learn the same topic - in this case, data science. We learn together, we struggle together, and we prosper together. Then there are the professors who are there rooting for us. I dig such a collaborative learning environment.
 
 Metis also does a great job with helping students get to know one another via daily pair programming sessions. Every morning, students are paired up with someone new to solve problems that are typically seen in data science interviews. A couple of the questions I saw this past week definitely played games with my heart, but a [twitter post](https://twitter.com/hadleywickham/status/565516733516349441) shared by the professors taught me that learning can be challenging, and at times you will struggle, but the adversities you face and overcome is how you know you’re doing it right. 
+
+![twitter_post](/images/blog_post_1_3.png)
 
 
 ## Project Benson - aka MTA Data Analysis
