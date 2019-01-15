@@ -50,6 +50,9 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 
 3. **Analyze**: This is where the insights and recommendations stem from. For my group specifically, we knew we wanted to find train stations with the highest total number of entries over the last 52-weeks. We also wanted to consider city areas with large number of households that had incomes ranging between $100k to $200k. Our assumption was that such households would be more inclined to contribute to the annual gala. 
 
+![tools](/images/blog_post_1/image_5.png)
+> Data sources and tools used for this project
+
    Most of our analysis was performed within Python using a software library called Pandas. Pandas is great for both data manipulation and analysis, with capabilities such as:
 	- Creating DataFrames, which essentially is a table with both columns and rows - very similar to Excel
 	- Ability to load data from flat files (e.g. CSV), Excel files, and databases
@@ -61,7 +64,8 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 
 4. **Results**: Once we built all the different DataFrames and calculated all values we wanted, it was time for us to visually display our findings. The tools we used for this project were Python libraries Matplotlib and Seaborn. Matplotlib provides the basic tools required to develop plots such as bar graphs and scatter charts. Seaborn is a Python library based on Matplotlib that allows for more aesthetically pleasing statistical graphs. 
 
-   You can see an example of a graph we built for our group project below:  
+   You can see an example of a graph we built for our group project below:
+     
    ![data visual](/images/blog_post_1/image_6.png)
    
 
