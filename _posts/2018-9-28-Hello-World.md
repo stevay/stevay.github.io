@@ -17,7 +17,7 @@ So like most journeys, there always is an end, and that was the case for this pa
 ## So What’s Next?  
 One week ago, I started attending classes at Metis - an organization that provides full-time, in-person data science education for twelve weeks at a time. The bootcamp is available at multiple locations - I went with the San Francisco offering. 
 
-![metis logo](/images/blog_post_1/image_2.jpeg)
+![metis logo](/images/blog_post_1/image_6.jpg)
 
 I chose to fully devote myself to the three month data science program because I wanted to develop new skills and be able to use them repeatedly. In other words - learning through repetition. Also, the general recommendation for anyone developing new skills is to come up with a topic you’re interested in and to work on a project utilizing your newfound capabilities. Through Metis’ data science bootcamp, each student has the opportunity to work on a total of five projects - four which are structured around the topics covered in the classes, and the fifth where each student has the opportunity to choose the subject matter - typically one he or she is passionate about. 
 
@@ -27,7 +27,7 @@ Metis also does a great job with helping students get to know one another via da
 
 ## Project Benson - aka MTA Data Analysis
 
-![alt text](/images/blog_post_1/image_1.png)
+![alt text](/images/blog_post_1/image_6.png)
   
 I am (*was?*) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
 
