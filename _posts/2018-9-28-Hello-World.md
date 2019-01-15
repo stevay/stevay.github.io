@@ -1,9 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: Hello World!
 ---
 
-**Hello World!**  
+![alt text](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjw6tLMw-7fAhVEMHwKHTPLDrcQjRx6BAgBEAU&url=https%3A%2F%2Fmedium.com%2F%40thiagonascimento%2Ftime-to-first-hello-world-11a4735602f2&psig=AOvVaw23wEKjpozAvkTPrsz70fzt&ust=1547598433736004)
+ 
 Welcome to my first blog post! It has been a hot second since I last wrote a blog post (Xanga anyone?) but I am back and ready to share with you some thoughts I have gathered over this past week.
 
 Now you as the reader, who somehow managed to find your way to my blog post, may be wondering, “what is this blogger going to talk about for his first blog post in two decades?” (And if not, then joke’s on me, but joke’s on you because I don’t care! Hah!...please don’t leave...) For starters, I’d like to share why this blog post, let alone this website, exists today.
@@ -24,7 +25,7 @@ Metis also does a great job with helping students get to know one another via da
 
 
 **Project Benson - aka MTA Data Analysis**  
-I am an East Coaster. I was born in New York and I moved to New Jersey soon after. After I graduated high school, I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
+I am (was?) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
 
 So when my professors dropped the news earlier this week that my class’ first project would revolve around New York City MTA data, there was definitely a sense of nostalgia happening. The many fond memories I have of the public transportation system offered in the city that never sleeps, like the lack of air conditioning in practically every subway station; the rats that roamed and ruled the train tracks; the delays, oh the delays…
 
