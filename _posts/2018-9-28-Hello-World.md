@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: 
 ---
 
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*U-R58ahr5dtAvtSLGK2wXg.png)
@@ -9,12 +9,12 @@ Welcome to my first blog post! It has been a hot second since I last wrote a blo
 
 Now you as the reader, who somehow managed to find your way to my blog post, may be wondering, “what is this blogger going to talk about for his first blog post in two decades?” (And if not, then joke’s on me, but joke’s on you because I don’t care! Hah!...please don’t leave...) For starters, I’d like to share why this blog post, let alone this website, exists today.
 
-##Here We Go…  
+## Here We Go…  
 Two weeks ago, I ended my nearly half-century career as a management consultant. It was an amazing opportunity for me - working for so many different clients within so many different industries, along with all the incredibly talented people I got to collaborate with. I had a glimpse of what data management looked like (e.g. data governance, master data management) and it was because of that exposure did my curiosity grow for how to go about gaining insights from the data itself.
 
 So like most journeys, there always is an end, and that was the case for this particular chapter of my life. 
 
-##So What’s Next?  
+## So What’s Next?  
 One week ago, I started attending classes at Metis - an organization that provides full-time, in-person data science education for twelve weeks at a time. The bootcamp is available at multiple locations - I went with the San Francisco offering. 
 
 I chose to fully devote myself to the three month data science program because I wanted to develop new skills and be able to use them repeatedly. In other words - learning through repetition. Also, the general recommendation for anyone developing new skills is to come up with a topic you’re interested in and to work on a project utilizing your newfound capabilities. Through Metis’ data science bootcamp, each student has the opportunity to work on a total of five projects - four which are structured around the topics covered in the classes, and the fifth where each student has the opportunity to choose the subject matter - typically one he or she is passionate about. 
@@ -24,7 +24,7 @@ Then there’s the aspect of being a part of a class. Everyone is there to learn
 Metis also does a great job with helping students get to know one another via daily pair programming sessions. Every morning, students are paired up with someone new to solve problems that are typically seen in data science interviews. A couple of the questions I saw this past week definitely played games with my heart, but a [twitter post](https://twitter.com/hadleywickham/status/565516733516349441) shared by the professors taught me that learning can be challenging, and at times you will struggle, but the adversities you face and overcome is how you know you’re doing it right. 
 
 
-##Project Benson - aka MTA Data Analysis
+## Project Benson - aka MTA Data Analysis
 
 ![alt text](/images/blog_post_1_1.png)
   
@@ -71,7 +71,7 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 
 ![alt text](/images/404.jpg)
 
-##Final Thoughts  
+## Final Thoughts  
 When it comes exploratory data analysis, the sky is the limit in terms of scope. There is so much data one can analyze and get insights from. It is important to remember that when starting off, it is OK to start with a narrower scope and expanding it afterwards. Perfectionism - that feeling of making sure you capture every data source you believe is relevant for your analysis - is not your friend here. Baby steps!
 
 If interested, here's the [link](https://github.com/RedGeryon/MTA-subway) to my group’s GitHub if you want to see what our final presentation looks like, as well as some of the code we developed to capture the results we ended up with. 
