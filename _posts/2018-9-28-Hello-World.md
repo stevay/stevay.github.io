@@ -17,7 +17,7 @@ So like most journeys, there always is an end, and that was the case for this pa
 ## So What’s Next?  
 One week ago, I started attending classes at Metis - an organization that provides full-time, in-person data science education for twelve weeks at a time. The bootcamp is available at multiple locations - I went with the San Francisco offering. 
 
-![metis logo](/images/blog_post_1_2.jpeg)
+![metis logo](/images/blog_post_1/image_2.jpeg)
 
 I chose to fully devote myself to the three month data science program because I wanted to develop new skills and be able to use them repeatedly. In other words - learning through repetition. Also, the general recommendation for anyone developing new skills is to come up with a topic you’re interested in and to work on a project utilizing your newfound capabilities. Through Metis’ data science bootcamp, each student has the opportunity to work on a total of five projects - four which are structured around the topics covered in the classes, and the fifth where each student has the opportunity to choose the subject matter - typically one he or she is passionate about. 
 
@@ -25,12 +25,9 @@ Then there’s the aspect of being a part of a class. Everyone is there to learn
 
 Metis also does a great job with helping students get to know one another via daily pair programming sessions. Every morning, students are paired up with someone new to solve problems that are typically seen in data science interviews. A couple of the questions I saw this past week definitely played games with my heart, but a [twitter post](https://twitter.com/hadleywickham/status/565516733516349441) shared by the professors taught me that learning can be challenging, and at times you will struggle, but the adversities you face and overcome is how you know you’re doing it right. 
 
-![twitter_post](/images/blog_post_1_3.png)
-
-
 ## Project Benson - aka MTA Data Analysis
 
-![alt text](/images/blog_post_1_1.png)
+![alt text](/images/blog_post_1/image_1.png)
   
 I am (*was?*) an East Coaster. I was born in New York and moved to New Jersey soon after. Eventually I went back to New York for my undergraduate degree and for work, aka ‘adulting.’ It wasn’t until recently did I decide to move to the west coast (**BEST COAST!**... am I doing it right?) 
 
@@ -39,6 +36,8 @@ So when my professors dropped the news earlier this week that my class’ first 
 Although my recollection of the NYC subway stations isn’t captured in the freely available MTA subway data, what is captured played a huge role in helping me and my group complete our first project. 
 
 Our task was to utilize MTA data, and other data sources of our choosing, in order to assist the client define which train stations to deploy street teams for both promoting an upcoming gala event and inviting participants who are passionate about increasing diversity in the technology industry. At a high level, my group came up with a general four-step approach for solving this problem:
+
+![process flow](/images/blog_post_1/image_4.png)
 
 1. **Pull**: Gather all the data sources that we believed were both relevant and beneficial for our research purposes. In this case, we knew we wanted MTA data to get a sense of what activity at each train station was like. Also, given the second requirement of wanting to find gala participants who would contribute to the client’s cause, we wanted to pull NYC income and household data offered by the U.S. Census Bureau. In order to tie MTA data with census data, zip code data was required - we turned to Google Maps Platform for that. 
 
@@ -63,7 +62,8 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 4. **Results**: Once we built all the different DataFrames and calculated all values we wanted, it was time for us to visually display our findings. The tools we used for this project were Python libraries Matplotlib and Seaborn. Matplotlib provides the basic tools required to develop plots such as bar graphs and scatter charts. Seaborn is a Python library based on Matplotlib that allows for more aesthetically pleasing statistical graphs. 
 
    You can see an example of a graph we built for our group project below:  
-   [insert picture here]. 
+   ![data visual](/images/blog_post_1/image_6.png)
+   
 
 5. **Future**: Given the timeframe of this project, there were additional ideas my group had in terms of other factors to consider or visuals to develop, but unfortunately we were not able to include them in our final presentation. All those ideas went into this bucket of our general approach. 
 
@@ -72,8 +72,6 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 	- Analyzing longitudinal MTA data (e.g. Sept 2017 vs. Sept 2018 MTA activity)
 	- Seeing if demographics correlates with MTA activity (e.g. gender)
 	- Identifying tech-centric locations and their proximity to MTA train stations
-
-![alt text](/images/404.jpg)
 
 ## Final Thoughts  
 When it comes exploratory data analysis, the sky is the limit in terms of scope. There is so much data one can analyze and get insights from. It is important to remember that when starting off, it is OK to start with a narrower scope and expanding it afterwards. Perfectionism - that feeling of making sure you capture every data source you believe is relevant for your analysis - is not your friend here. Baby steps!
