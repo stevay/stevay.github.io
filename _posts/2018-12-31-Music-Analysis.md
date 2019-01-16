@@ -7,23 +7,36 @@ title: The Life of Popular Music
 
 The purpose of music is multifaceted. The head-bobbing rhythms; the sing-along anthems ([this is my jam](https://youtu.be/HgzGwKwLmgM)); the movie soundtrack theme songs. It is no surprise how impactful music is to the world. Some might even say that there is no life without music - I am one of such folks.
 
-Given how expansive music is, in areas such as genre and number of songs available, when it comes to distinguishing ‘good’ music from ‘great’ music, the Billboard Hot 100 charts are considered the music industry standard for defining the most popular songs for any given year. Billboard has been releasing charts since the 1950s, and I, being the curious Data Scientist with a strong passion in music, yearn to know what made songs ‘click’ for society over the last 60-plus years.
+Given how expansive music is, in areas such as genre and number of songs available, when it comes to distinguishing ‘good’ music from ‘great’ music, the Billboard Hot 100 charts are considered the music industry standard for defining the most popular songs for any given year. Billboard has been releasing charts since the 1950s, and I, being the curious Data Scientist with a strong passion in music, yearns to know what made songs ‘click’ for society over the last sixty-plus years.
 
 Using Billboard Hot 100 charts from 1950-2018 and Spotify’s API, I set out to discover what music trends and shifts exist for popular music over the past six decades.
 
 ## Approach  
 For this initiative, I define ‘great’ or ‘popular’ music to be any song that was listed in the Billboard Hot 100 charts. 
 
-In terms of data collection, I relied on **two** sources: 
+In terms of data collection, we can rely on two sources: 
  
-1. For songs made between **1950 - 2015**, I leveraged [data](https://github.com/kevinschaich/billboard/tree/master/data/years) from GitHub user Kevin Schiach. The data contains interesting features such as song sentiment, Flesch-Kincaid metric (determines how complex and readable text or song lyrics are), number of difficult words, and more.  
-2. Songs made **2016 and onwards** I first manually pulled artist and track names from Wikipedia with the Python library Pandas. Afterwards, I captured the other features found in Kevin Schiach’s data (e.g. Flesch-Kincaid) with the help of other Python libraries such as [vaderSentiment](https://github.com/cjhutto/vaderSentiment) and [textstat](https://pypi.org/project/textstat/). 
+1. For songs made between **1950 - 2015**, I leverage [data](https://github.com/kevinschaich/billboard/tree/master/data/years) from GitHub user Kevin Schiach. The data contains interesting features such as song sentiment, Flesch-Kincaid metric (determines how complex and readable text or song lyrics are), number of difficult words, and more  
+2. Songs made **2016 and onwards** we can first manually pull artist and track names from Wikipedia with the Python library Pandas. Afterwards, we can capture the other features found in Kevin Schiach’s data (e.g. Flesch-Kincaid) with the help of other Python libraries such as [vaderSentiment](https://github.com/cjhutto/vaderSentiment) and [textstat](https://pypi.org/project/textstat/) 
 
-In addition, I utilized Spotify’s API, specifically an endpoint called [get audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/), to capture other song features like loudness, speechiness (how many spoken words are present in a track), tempo, valence (how much musical positiveness is present in a track), etc. Combining Spotify audio features with my initial set, that brings the song features’ total count to 37.
+In addition, we can utilize Spotify’s API, specifically an endpoint called [get audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/), to capture other song features like loudness, speechiness (how many spoken words are present in a track), tempo, valence (how much musical positiveness is present in a track), and more. Combining Spotify audio features with my initial set, that brings the song features’ total count to 37.
 
 You can find more information on all features via Kevin Schiach’s repository [here](https://github.com/kevinschaich/billboard) and Spotify for Developers page [here](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/). 
 
 ## Exploratory Data Analysis
+
+With the song features, we can proceed to do some exploratory data analysis to see how exactly did popular music change in the past sixty years. 
+
+![f_k_metric](/images/blog_post_2/image_3.png)
+
+Above, we can see at a high-level how music has shifted over the last six decades through two specific features: the Flesch-Kincaid Grade Level and Sentiment Scores.
+
+The Flesch-Kincaid metric uses a variety of linguistics data like average sentence length, word length, and complexity (e.g. number of syllables) to calculate the readability of text. After applying the Flesch-Kincaid metric on song lyrics, we can see that since Billboard Hot 100's inception to the 1990s, songs have gradually become less complex and easier to interpret. However, post the nineties we see that popular music have become more complicated by the sharp positive slope at the end of the graph.
+
+On the right, we showcase the sentiment analysis results, where it appears that songs have gotten less positive (angrier?) over the years. 
+
+
+
 
 
 ## Project Benson - aka MTA Data Analysis
