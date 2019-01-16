@@ -7,7 +7,7 @@ title: The Life of Popular Music
 
 The purpose of music is multifaceted. The head-bobbing rhythms; the sing-along anthems ([this is my jam](https://youtu.be/HgzGwKwLmgM)); movie soundtrack theme songs. It is no surprise how impactful music is to the world. Some might even say that there is no life without music - I am one of such folks.
 
-Given how expansive music is, in areas such as genre and number of songs available, when it comes to distinguishing ‘good’ music from ‘great’ music, the Billboard Hot 100 charts are considered the music industry standard for defining the most popular songs for any given year. Billboard has been releasing charts since the 1950s, and I, being the curious Data Scientist with a strong passion in music, yearns to know what made songs ‘click’ for society over the last sixty-plus years.
+Given how expansive music is, in areas such as genre and number of songs available, when it comes to distinguishing ‘good’ music from ‘great’ music, the Billboard Hot 100 charts are considered the music industry standard for defining the most popular songs on any given year. Billboard has been releasing charts since the 1950s, and I, being the curious Data Scientist with a strong passion in music, yearns to know what made songs ‘click’ for society over the last sixty-plus years.
 
 Using Billboard Hot 100 charts from 1950-2018 and Spotify’s API, I set out to discover what music trends and shifts exist for popular music over the past six decades.
 
@@ -120,7 +120,7 @@ Looking at other song features related to song lyrics or words themselves (e.g. 
 
 ## Other Trends
 
-Going back to the sentiment analysis results, but now at the genre-level, what we can see is that Hip-Hop / R&B is less positive relative to the other genres. Given this, and the previously mentioned fact that hip-hop rose to fame in the 90's, we can see why popular songs have become increasingly negative over time. 
+Going back to the sentiment analysis results, but now at the genre-level, what we can see is that Hip-Hop / R&B is less positive relative to other genres. Given this, and the previously mentioned fact that hip-hop rose to fame in the 90's, we can see why popular songs have become increasingly negative over time. 
 
 In addition, when referring to the Spotify audio feature 'Loudness', notice how the top three genres of today - Pop, Hip-Hop, and Electronic - are the loudest relative to other genres. What we can learn from this visual is that people today tend to gravitate towards loud music. Unfortunately, not often does one see the 'quieter' genres, like Jazz and Blues, get represented in the Billboard Hot 100. That doesn't mean they're not good though! (if you're willing, and have a premium Spotify account, check [this](https://open.spotify.com/album/3kxiL93hCFCIXkXJBLcYDi?si=Qyp8Wf8ASG2pRSwgJJvPCA) album out - it's wild.)
 
@@ -128,13 +128,15 @@ In addition, when referring to the Spotify audio feature 'Loudness', notice how 
 
 ## Consistent Song Topics
 
-Another useful tool for text analysis is a WordCloud - which is a space filled with words in different sizes, where the word sizes represent the frequency or importance of each word. In other words, the larger the font size of a word in a WordCloud, the greater that word's frequency. 
+Another useful tool for text analysis is a WordCloud - which is a space filled with words in different sizes, where the word sizes represent the frequency or importance of each word. In other words, the larger the font size of a word in a WordCloud, the greater that word's importance.
 
 Below we have two WordClouds - one for pre-1990's, one for post-1990's.
 
 ![wordclouds](/images/blog_post_2/image_7.png)
 
-Despite the pivot in the nineties, where songs became lyrically more complex and angry, what we see from these WordClouds is that song topics generally stayed the same. In essence, to write a popular hit song, all you need is **love**. And possibly a *baby girl* to *know* (?!)
+Despite the pivot in the nineties, where songs lyrics became increasingly complex and angry, what we see from these WordClouds is that song topics generally stayed the same. 
+
+wIn essence, to write a popular hit song, all you need is **love**. And possibly a *baby girl* to *know* (?!)
 
 ## In Summary...
 
@@ -150,16 +152,16 @@ Overall, per the data analysis, main takeaways are as follows:
 
 For fun, I decided to create a music recommendation Flask app based on my dataset of popular songs. The web application basically allows an end-user to search for a Billboard Hot 100 song, provides statistics on searched song (e.g. sentiment score), and recommends four other Billboard Hot 100 songs, from any year, that are similar to the searched song. 
 
-The content-based recommendation app was built using NLP techniques such as lemmatization and Word2Vec to process both song lyrics and every track's associated audio features, along with the unsupervised learning algorithm Nearest Neighbor in order to calculate the cosine similarities between different song feature vectors. 
+The content-based recommendation app was built using NLP techniques such as [lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html) and [Word2Vec](https://www.tensorflow.org/tutorials/representation/word2vec) to process both song lyrics and every track's associated audio features, along with the unsupervised learning algorithm [Nearest Neighbor](https://scikit-learn.org/stable/modules/neighbors.html) in order to calculate the cosine similarities between different song feature vectors. 
 
-With the help of the Spotify API, additional features in the Flask app include album covers and track samples (if available.)
+With the help of the Spotify API, additional features in the Flask app include displaying album covers of searched/recommended songs and providing track samples for the end-user to listen to (if available via Spotify.)
 
-Click image to check out a video of my Flask App in action!  
+**Click image to check out a video of my Flask App in action!**  
 [![flask app](/images/blog_post_2/image_8.png)](https://drive.google.com/file/d/1RThdYmPgZB7CBh_21ligaS-nDhNtJ68a/view?usp=sharing)
 
   
 
-## Resources 
+## Additional Details
 
 If you want to see the nitty-gritty details of how I went about creating the data visuals or Flask app shown in this post, here's the [link](https://github.com/stevay/Music_Analysis) to my GitHub repository for this project. 
 
