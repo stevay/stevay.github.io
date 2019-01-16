@@ -108,7 +108,7 @@ for track_tags in df_final_set['tags']:
 df_final_set['agg_genre'] = pd.Series(list_of_genres,index=df_final_set.index)
 ```
 
-The main takeaway from this graph is how the genre 'Rock' was the Billboard Hot 100 charts' majority-genre from inception the 80's. It wasn't until the 90's that we see the uprising of other genres such as Pop, Hip-Hop / R&B, and Electronic / Dance.
+The main takeaway from this analysis is how the genre 'Rock' was the Billboard Hot 100 charts' majority-genre from inception the 80's. It wasn't until the 90's that we see the uprising of other genres such as Pop, Hip-Hop / R&B, and Electronic / Dance.
 
 ![genre breakdown](/images/blog_post_2/image_4.png)
 
@@ -138,7 +138,7 @@ Despite the pivot in the nineties, where songs became lyrically more complex and
 
 ## In Summary...
 
-Overall, per our data analysis, the main takeaways are as follows: 
+Overall, per the data analysis, main takeaways are as follows: 
  
 + The nineties was a pivotal decade for music, where we saw a shift in music genre taste, from Rock to Hip-Hop / R&B, Pop, and Electronic / Dance
 + Due to the rise in popularity for genres such as Hip-Hop, with songs that are very lyrically-driven, we see the shift in popular music features post the ninties, where:  
@@ -146,18 +146,21 @@ Overall, per our data analysis, the main takeaways are as follows:
   - Songs are louder
   - Songs are less positive
  
-## Content-Based Recommendation Flask App (Because...Why Not?)
+## Content-Based Recommendation Flask App
 
-Click image to check out a video of my Flask App in action!
-[![flask app](/images/blog_post_2/image_8.png)](https://drive.google.com/file/d/1PQUErL2CEn7W-nuPJCUMVtLkIZFXVXsm/view?usp=sharing)
+For fun, I decided to create a music recommendation Flask app based on my dataset of popular songs. The web application basically allows an end-user to search for a Billboard Hot 100 song, provides statistics on searched song (e.g. sentiment score), and recommends four other Billboard Hot 100 songs, from any year, that are similar to the searched song. 
+
+The content-based recommendation app was built using NLP techniques such as lemmatization and Word2Vec to process both song lyrics and every track's associated audio features, along with the unsupervised learning algorithm Nearest Neighbor in order to calculate the cosine similarities between different song feature vectors. 
+
+With the help of the Spotify API, additional features in the Flask app include album covers and track samples (if available.)
+
+Click image to check out a video of my Flask App in action!  
+[![flask app](/images/blog_post_2/image_8.png)](https://drive.google.com/file/d/1RThdYmPgZB7CBh_21ligaS-nDhNtJ68a/view?usp=sharing)
 
   
 
-## Final Thoughts  
-When it comes exploratory data analysis, the sky is the limit in terms of scope. There is so much data one can analyze and get insights from. It is important to remember that when starting off, it is OK to start with a narrower scope and expanding it afterwards. Perfectionism - that feeling of making sure you capture every data source you believe is relevant for your analysis - is not your friend here. Baby steps!
+## Resources 
 
-If interested, here's the [link](https://github.com/RedGeryon/MTA-subway) to my group’s GitHub if you want to see what our final presentation looks like, as well as some of the code we developed to capture the results we ended up with. 
+If you want to see the nitty-gritty details of how I went about creating the data visuals or Flask app shown in this post, here's the [link](https://github.com/stevay/Music_Analysis) to my GitHub repository for this project. 
 
-If you made it this far, thanks for reading! I’ll leave an inspirational quote below to close this blog out:
-
-**STEVAY OUT!**
+Thanks for reading! :)
