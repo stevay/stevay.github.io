@@ -50,8 +50,8 @@ Our task was to utilize MTA data, and other data sources of our choosing, in ord
 
 3. **Analyze**: This is where the insights and recommendations stem from. For my group specifically, we knew we wanted to find train stations with the highest total number of entries over the last 52-weeks. We also wanted to consider city areas with large number of households that had incomes ranging between $100k to $200k. Our assumption was that such households would be more inclined to contribute to the annual gala. 
 
-![tools](/images/blog_post_1/image_5.png)  
-*Data sources and tools used for this project*
+	![tools](/images/blog_post_1/image_5.png)  
+	*Data sources and tools used for this project*
 
    Most of our analysis was performed within Python using a software library called Pandas. Pandas is great for both data manipulation and analysis, with capabilities such as:
 	- Creating DataFrames, which essentially is a table with both columns and rows - very similar to Excel

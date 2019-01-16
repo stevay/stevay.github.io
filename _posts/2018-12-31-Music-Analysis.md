@@ -83,7 +83,7 @@ When it comes exploratory data analysis, the sky is the limit in terms of scope.
 
 If interested, here's the [link](https://github.com/RedGeryon/MTA-subway) to my group’s GitHub if you want to see what our final presentation looks like, as well as some of the code we developed to capture the results we ended up with. 
 
-If you made it this far, thanks for reading! I guess I’ll leave an inspirational quote below to close this blog out:
+If you made it this far, thanks for reading! I’ll leave an inspirational quote below to close this blog out:
 
 ![alt text](https://media.giphy.com/media/QChZZqzSo9d2o/giphy.gif)
 
